@@ -12,4 +12,4 @@
 
 <%= link_to "Add Ingredient",  new_cocktail_dose_path(@cocktail) %>
 <%= link_to "| Back to home page",  cocktails_path %>
-<%= link_to "| Delete Cocktail",  cocktails_path %>
+<%= link_to "| Delete Cocktail",  cocktail_path(@cocktail), method: :delete, data: {confirm: 'Are you sure?'} %>
