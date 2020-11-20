@@ -1,0 +1,22 @@
+/* The hero image */
+.banner {
+  background-image: url("https://source.unsplash.com/1600x900/?cocktail");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Place text in the middle of the image */
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.btn-danger{
+  background-color: #ec5858;
+  padding: 10 20px;
+}
+

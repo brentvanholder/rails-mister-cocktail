@@ -1,7 +1,17 @@
 <div class="home-page">
-  <h1>Fancy Cocktails!</h1>
 
-  <div class="row row-cols-1 row-cols-md-2">
+  <div class="banner">
+    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" class="card-img-top" alt="...">
+      <div class ="logo">
+        <div class="banner-text">
+          <h1>Fancy Cocktails!</h1>
+          <p>Cocktail party alert</p>
+          <button type="button" class="btn btn-danger">Drink</button>
+        </div>
+      </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 m-5 ">
     <% @cocktails.each do |cocktail| %>
       <div class="col mb-4">
         <div class="card">
